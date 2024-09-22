@@ -1,0 +1,36 @@
+{
+	"presets": [
+		[
+			"env"
+		]
+	],
+	"ignore": [
+		"src/public/views/home/*.js",
+		"src/public/views/login/*.js",
+		"src/public/views/tnc/*.js",
+		"src/public/js/*.js",
+		"src/react-chat",
+		"src/react-chat/*"
+
+	],
+	"plugins": [
+		[
+			"transform-runtime",
+			{
+				"regenerator": true
+			}
+		],
+		[
+			"transform-object-rest-spread",
+			{
+				"useBuiltIns": true
+			}
+		],
+		[
+			"transform-class-properties"
+		],
+		[
+			"transform-es2015-arrow-functions"
+		]
+	]
+}
